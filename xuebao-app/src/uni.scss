@@ -1,0 +1,81 @@
+/**
+ * 学伴小书包 全局设计变量
+ * 简洁清爽风格
+ */
+
+/* ===== 品牌色 ===== */
+$brand-primary: #4A90D9;         /* 主色调 - 清爽蓝 */
+$brand-primary-light: #6BA3E3;   /* 主色浅 */
+$brand-primary-dark: #3A7BC8;    /* 主色深 */
+$brand-secondary: #67C23A;       /* 辅助色 - 活力绿 */
+$brand-accent: #FF9500;          /* 强调色 - 暖橙 */
+
+/* ===== 功能色 ===== */
+$color-success: #67C23A;
+$color-warning: #FF9500;
+$color-error: #F56C6C;
+$color-info: #909399;
+
+/* ===== 文字颜色 ===== */
+$text-primary: #303133;
+$text-regular: #606266;
+$text-secondary: #909399;
+$text-placeholder: #C0C4CC;
+$text-white: #FFFFFF;
+
+/* ===== 背景色 ===== */
+$bg-page: #F5F6FA;               /* 页面背景 */
+$bg-card: #FFFFFF;               /* 卡片背景 */
+$bg-grey: #F0F2F5;               /* 灰色背景 */
+$bg-mask: rgba(0, 0, 0, 0.4);   /* 遮罩 */
+
+/* ===== 边框 ===== */
+$border-color: #E4E7ED;
+$border-light: #EBEEF5;
+
+/* ===== 字号 ===== */
+$font-size-xs: 20rpx;
+$font-size-sm: 24rpx;
+$font-size-base: 28rpx;
+$font-size-md: 30rpx;
+$font-size-lg: 32rpx;
+$font-size-xl: 36rpx;
+$font-size-xxl: 40rpx;
+$font-size-title: 44rpx;
+
+/* ===== 间距 ===== */
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-base: 24rpx;
+$spacing-md: 32rpx;
+$spacing-lg: 40rpx;
+$spacing-xl: 48rpx;
+
+/* ===== 圆角 ===== */
+$radius-sm: 8rpx;
+$radius-base: 12rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-round: 999rpx;
+
+/* ===== 阴影 ===== */
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.06);
+$shadow-base: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8rpx 24rpx rgba(0, 0, 0, 0.12);
+
+/* ===== 学科颜色 ===== */
+$subject-chinese: #E74C3C;       /* 语文 - 红 */
+$subject-math: #2196F3;          /* 数学 - 蓝 */
+$subject-english: #FF9800;       /* 英语 - 橙 */
+$subject-general: #4CAF50;       /* 综合 - 绿 */
+
+/* ===== uni-app 默认变量覆盖 ===== */
+$uni-color-primary: $brand-primary;
+$uni-color-success: $color-success;
+$uni-color-warning: $color-warning;
+$uni-color-error: $color-error;
+$uni-text-color: $text-primary;
+$uni-text-color-grey: $text-secondary;
+$uni-bg-color: $bg-page;
+$uni-bg-color-grey: $bg-grey;
+$uni-border-color: $border-color;
