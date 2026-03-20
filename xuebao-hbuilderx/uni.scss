@@ -1,0 +1,39 @@
+/**
+ * 学伴小书包 全局设计变量
+ */
+
+/* 品牌色 */
+$brand-primary: #4A90D9;
+$brand-primary-light: #6BA3E3;
+$brand-primary-dark: #3A7BC8;
+$brand-secondary: #67C23A;
+$brand-accent: #FF9500;
+
+/* 功能色 */
+$color-success: #67C23A;
+$color-warning: #FF9500;
+$color-error: #F56C6C;
+$color-info: #909399;
+
+/* 文字颜色 */
+$text-primary: #303133;
+$text-regular: #606266;
+$text-secondary: #909399;
+$text-placeholder: #C0C4CC;
+
+/* 背景色 */
+$bg-page: #F5F6FA;
+$bg-card: #FFFFFF;
+
+/* 圆角 */
+$radius-sm: 8rpx;
+$radius-base: 12rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-round: 999rpx;
+
+/* uni-app 默认变量覆盖 */
+$uni-color-primary: $brand-primary;
+$uni-color-success: $color-success;
+$uni-color-warning: $color-warning;
+$uni-color-error: $color-error;
